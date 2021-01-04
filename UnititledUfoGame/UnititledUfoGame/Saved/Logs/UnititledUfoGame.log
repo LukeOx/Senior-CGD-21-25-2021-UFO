@@ -743,3 +743,1382 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.04-12.28.50:796][914]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000174DBFBDA00), frame # 1914
 [2021.01.04-12.28.50:797][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
 [2021.01.04-12.28.50:829][915]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.01.04-12.29.15:785][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2021.01.04-12.29.16:587][203]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.29.16:601][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.29.16:601][203]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:29:16)
+[2021.01.04-12.29.16:626][203]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.29.16:645][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019584s)
+[2021.01.04-12.29.16:646][203]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.29.16:647][203]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001748B478C00), frame # 2203
+[2021.01.04-12.29.16:647][203]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001748BF89BC0), frame # 2203
+[2021.01.04-12.29.16:647][203]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2021.01.04-12.29.16:647][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.021358s)
+[2021.01.04-12.29.16:660][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.29.16:662][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.29.16:662][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.29.16:663][203]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.29.16:663][203]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.29.16:667][203]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.29.16:667][203]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.29.16:701][203]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.29.16:701][203]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.29.16:701][203]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.29.16:701][203]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.29.16:702][203]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.29.16:720][203]LogInit: FAudioDevice initialized.
+[2021.01.04-12.29.16:730][203]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.29.16:736][203]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.29.16
+[2021.01.04-12.29.16:736][203]LogWorld: Bringing up level for play took: 0.005508
+[2021.01.04-12.29.16:736][203]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.01.04-12.29.16:739][203]PIE: Server logged in
+[2021.01.04-12.29.16:741][203]PIE: Play in editor total start time 0.141 seconds.
+[2021.01.04-12.29.18:177][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.29.18:177][365]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.29.18:177][365]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.29.18:178][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.29.18:201][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.29.18:203][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.29.18:239][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.29.18:240][365]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001748BF89BC0), frame # 2365
+[2021.01.04-12.29.18:240][365]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001748B478C00), frame # 2365
+[2021.01.04-12.29.18:241][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.04-12.29.18:283][366]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.01.04-12.29.19:205][467]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.04-12.29.19:235][467]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.29.19:397][467]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.01.04-12.29.20:206][467]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.04-12.29.22:054][632]LogSlate: Window 'FlyingPawn' being destroyed
+[2021.01.04-12.29.22:667][692]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.04-12.29.35:668][113]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.01.04-12.29.48:042][518]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.29.48:077][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.04-12.30.25:546][826]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.30.25:578][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.01.04-12.30.26:034][865]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn924D396B4E52AA20550CE1A216BCD7E3.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.30.26:048][865]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.30.26:048][865]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.30.27:019][976]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.30.27:032][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.30.27:032][976]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:30:27)
+[2021.01.04-12.30.27:032][976]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.30.27:046][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013157s)
+[2021.01.04-12.30.27:046][976]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.30.27:046][976]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017526883E00), frame # 9976
+[2021.01.04-12.30.27:046][976]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000175279F2200), frame # 9976
+[2021.01.04-12.30.27:047][976]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2021.01.04-12.30.27:047][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014317s)
+[2021.01.04-12.30.27:065][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.30.27:067][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.30.27:067][976]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.30.27:067][976]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.30.27:070][976]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.30.27:070][976]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.30.27:093][976]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.30.27:093][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.30.27:093][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.30.27:093][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.30.27:093][976]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.30.27:103][976]LogInit: FAudioDevice initialized.
+[2021.01.04-12.30.27:113][976]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.30.27:117][976]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.30.27
+[2021.01.04-12.30.27:117][976]LogWorld: Bringing up level for play took: 0.003485
+[2021.01.04-12.30.27:117][976]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.01.04-12.30.27:119][976]PIE: Server logged in
+[2021.01.04-12.30.27:120][976]PIE: Play in editor total start time 0.088 seconds.
+[2021.01.04-12.30.44:446][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.30.44:446][ 50]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.30.44:446][ 50]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.30.44:447][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.30.44:462][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.30.44:465][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.30.44:520][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.30.44:521][ 50]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000175279F2200), frame # 12050
+[2021.01.04-12.30.44:521][ 50]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017526883E00), frame # 12050
+[2021.01.04-12.30.44:523][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.01.04-12.30.44:557][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.01.04-12.30.47:445][393]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.30.47:482][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.01.04-12.31.05:229][442]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn8DD874604EBAF950E56E74A58727108E.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.31.05:239][442]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.31.05:239][442]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.31.06:330][570]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.31.06:343][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.31.06:343][570]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:31:06)
+[2021.01.04-12.31.06:343][570]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.31.06:356][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012650s)
+[2021.01.04-12.31.06:357][570]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.31.06:357][570]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017521163E00), frame # 14570
+[2021.01.04-12.31.06:357][570]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001752974B4C0), frame # 14570
+[2021.01.04-12.31.06:357][570]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2021.01.04-12.31.06:357][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013661s)
+[2021.01.04-12.31.06:376][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.31.06:377][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.31.06:377][570]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.31.06:377][570]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.31.06:380][570]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.31.06:380][570]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.31.06:403][570]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.31.06:403][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.31.06:403][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.31.06:403][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.31.06:404][570]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.31.06:413][570]LogInit: FAudioDevice initialized.
+[2021.01.04-12.31.06:420][570]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.31.06:423][570]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.31.06
+[2021.01.04-12.31.06:424][570]LogWorld: Bringing up level for play took: 0.003002
+[2021.01.04-12.31.06:424][570]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.01.04-12.31.06:425][570]PIE: Server logged in
+[2021.01.04-12.31.06:426][570]PIE: Play in editor total start time 0.083 seconds.
+[2021.01.04-12.31.12:386][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.31.12:386][278]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.31.12:386][278]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.31.12:387][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.31.12:402][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.31.12:405][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.31.12:431][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.31.12:431][278]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001752974B4C0), frame # 15278
+[2021.01.04-12.31.12:431][278]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017521163E00), frame # 15278
+[2021.01.04-12.31.12:433][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.04-12.31.12:467][279]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.01.04-12.34.13:542][634]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.34.13:573][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.04-12.34.13:970][668]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnA1E135934C8105C2A1B5149B81A07CC0.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.34.13:982][668]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.34.13:982][668]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.34.18:832][235]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.34.18:861][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.04-12.34.19:341][280]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn33B150E64094C3A3E14DFDA5688D21DA.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.34.19:352][280]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.34.19:352][280]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.34.30:222][561]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnF97D438C45917756202243BE897B205E.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.34.30:234][561]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.34.30:235][561]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.35.23:361][730]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.35.23:390][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.04-12.35.23:744][760]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn75F1F76049F31D522F47A8833A499E74.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.35.23:753][760]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.35.23:754][760]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.35.29:053][362]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnFC7B2F71447E810B192A39BF5B9F1015.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.35.29:063][362]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.35.29:064][362]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.35.44:846][164]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.35.44:876][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.01.04-12.35.45:373][211]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn67CE095F40FAFAD5D1E21691ED316C1A.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.35.45:382][211]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.35.45:382][211]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.36.46:487][321]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.36.46:518][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.01.04-12.36.47:000][365]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn9B709F9A4CDE4380E7BCDB9F547E9031.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.36.47:012][365]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.36.47:012][365]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.37.12:933][292]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.37.12:966][292]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.04-12.37.13:388][329]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnDACCB892478D4947683A409B4801D996.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.37.13:400][329]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.37.13:400][329]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.37.14:972][506]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.37.14:985][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.37.14:985][506]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:37:14)
+[2021.01.04-12.37.15:025][506]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.37.15:038][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012938s)
+[2021.01.04-12.37.15:038][506]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.37.15:038][506]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017514D27E00), frame # 57506
+[2021.01.04-12.37.15:039][506]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000175150F8400), frame # 57506
+[2021.01.04-12.37.15:039][506]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2021.01.04-12.37.15:039][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013974s)
+[2021.01.04-12.37.15:059][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.37.15:060][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.37.15:060][506]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.37.15:060][506]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.37.15:063][506]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.37.15:063][506]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.37.15:087][506]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.37.15:087][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.37.15:087][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.37.15:087][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.37.15:087][506]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.37.15:097][506]LogInit: FAudioDevice initialized.
+[2021.01.04-12.37.15:105][506]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.37.15:108][506]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.37.15
+[2021.01.04-12.37.15:108][506]LogWorld: Bringing up level for play took: 0.003032
+[2021.01.04-12.37.15:108][506]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.04-12.37.15:110][506]PIE: Server logged in
+[2021.01.04-12.37.15:111][506]PIE: Play in editor total start time 0.127 seconds.
+[2021.01.04-12.37.23:396][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.37.23:396][493]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.37.23:396][493]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.37.23:397][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.37.23:410][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.37.23:413][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.37.23:454][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.37.23:455][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000175150F8400), frame # 58493
+[2021.01.04-12.37.23:455][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017514D27E00), frame # 58493
+[2021.01.04-12.37.23:457][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.01.04-12.37.23:491][494]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.04-12.37.24:192][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.01.04-12.37.24:245][571]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap34EC0B1A475875100FC3BAAB61030748.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.37.24:519][571]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData33E5D7EF49E8442207BFAD90FD79FE3C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.37.24:531][571]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.37.24:531][571]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.37.24:531][571]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.38.13:148][229]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.04-12.38.13:151][229]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.04-12.38.13:939][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.01.04-12.38.13:987][314]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap87E883C549749D2B989291B42F66E7AE.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.38.14:157][314]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData92D84C404D0FD32F0D837A94CF392913.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.38.14:170][314]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.38.14:170][314]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.38.14:170][314]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.38.14:595][362]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.38.14:609][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.38.14:609][362]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:38:14)
+[2021.01.04-12.38.14:609][362]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.38.14:622][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012924s)
+[2021.01.04-12.38.14:623][362]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.38.14:623][362]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017521CD6200), frame # 64362
+[2021.01.04-12.38.14:623][362]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017521481800), frame # 64362
+[2021.01.04-12.38.14:623][362]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2021.01.04-12.38.14:623][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013879s)
+[2021.01.04-12.38.14:643][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.38.14:644][362]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.38.14:644][362]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.38.14:644][362]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.38.14:647][362]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.38.14:647][362]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.38.14:672][362]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.38.14:672][362]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.38.14:672][362]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.38.14:672][362]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.38.14:673][362]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.38.14:683][362]LogInit: FAudioDevice initialized.
+[2021.01.04-12.38.14:692][362]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.38.14:696][362]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.38.14
+[2021.01.04-12.38.14:696][362]LogWorld: Bringing up level for play took: 0.003200
+[2021.01.04-12.38.14:696][362]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.01.04-12.38.14:698][362]PIE: Server logged in
+[2021.01.04-12.38.14:698][362]PIE: Play in editor total start time 0.09 seconds.
+[2021.01.04-12.38.45:205][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.38.45:205][ 15]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.38.45:206][ 15]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.38.45:206][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.38.45:220][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.38.45:222][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.38.45:235][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.38.45:270][ 15]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017521481800), frame # 68015
+[2021.01.04-12.38.45:270][ 15]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017521CD6200), frame # 68015
+[2021.01.04-12.38.45:272][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.01.04-12.38.45:308][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.01.04-12.39.06:357][479]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.39.06:388][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.01.04-12.39.06:799][514]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn17C703744C45D2E58B4115ABD168E30B.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.39.06:809][514]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.39.06:810][514]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.39.07:585][603]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.39.07:597][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.39.07:597][603]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:39:07)
+[2021.01.04-12.39.07:598][603]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.39.07:610][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012502s)
+[2021.01.04-12.39.07:611][603]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.39.07:611][603]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017527087E00), frame # 70603
+[2021.01.04-12.39.07:611][603]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001751530B600), frame # 70603
+[2021.01.04-12.39.07:611][603]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2021.01.04-12.39.07:611][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013462s)
+[2021.01.04-12.39.07:630][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.39.07:631][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.39.07:631][603]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.39.07:631][603]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.39.07:633][603]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.39.07:633][603]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.39.07:656][603]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.39.07:657][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.39.07:657][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.39.07:657][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.39.07:657][603]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.39.07:666][603]LogInit: FAudioDevice initialized.
+[2021.01.04-12.39.07:674][603]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.39.07:677][603]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.39.07
+[2021.01.04-12.39.07:677][603]LogWorld: Bringing up level for play took: 0.003080
+[2021.01.04-12.39.07:677][603]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.01.04-12.39.07:679][603]PIE: Server logged in
+[2021.01.04-12.39.07:679][603]PIE: Play in editor total start time 0.082 seconds.
+[2021.01.04-12.39.09:145][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.39.09:145][772]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.39.09:146][772]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.39.09:146][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.39.09:162][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.39.09:164][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.39.09:200][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.39.09:200][772]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001751530B600), frame # 70772
+[2021.01.04-12.39.09:201][772]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017527087E00), frame # 70772
+[2021.01.04-12.39.09:202][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.01.04-12.39.09:235][773]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.01.04-12.39.12:659][173]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.39.12:689][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.01.04-12.39.13:160][215]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn5E1AA7FE409BF8A5B8683A8F8FCA4F72.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.39.13:172][215]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.39.13:172][215]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.39.14:161][329]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.39.14:175][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.39.14:175][329]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:39:14)
+[2021.01.04-12.39.14:175][329]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.39.14:189][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013865s)
+[2021.01.04-12.39.14:190][329]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.39.14:190][329]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000175295FFE00), frame # 71329
+[2021.01.04-12.39.14:190][329]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017514ED6840), frame # 71329
+[2021.01.04-12.39.14:191][329]LogPlayLevel: PIE: World Init took: (0.001540s)
+[2021.01.04-12.39.14:191][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.015548s)
+[2021.01.04-12.39.14:210][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.39.14:212][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.39.14:212][329]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.39.14:212][329]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.39.14:215][329]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.39.14:215][329]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.39.14:238][329]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.39.14:238][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.39.14:238][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.39.14:239][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.39.14:239][329]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.39.14:248][329]LogInit: FAudioDevice initialized.
+[2021.01.04-12.39.14:253][329]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.39.14:257][329]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.39.14
+[2021.01.04-12.39.14:257][329]LogWorld: Bringing up level for play took: 0.003523
+[2021.01.04-12.39.14:257][329]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.04-12.39.14:259][329]PIE: Server logged in
+[2021.01.04-12.39.14:259][329]PIE: Play in editor total start time 0.085 seconds.
+[2021.01.04-12.39.20:545][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.39.20:545][ 78]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.39.20:545][ 78]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.39.20:546][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.39.20:561][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.39.20:564][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.39.20:597][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.39.20:599][ 78]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017514ED6840), frame # 72078
+[2021.01.04-12.39.20:599][ 78]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000175295FFE00), frame # 72078
+[2021.01.04-12.39.20:600][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.01.04-12.39.20:638][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.04-12.39.24:510][500]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn266370EE4810ADE2283C33A465C89027.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.39.24:519][500]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.39.24:519][500]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.39.37:555][ 27]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.39.37:587][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.01.04-12.39.38:039][ 67]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnDA72EE7B4E5AB595582DB29C6F1DC66D.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.39.38:049][ 67]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.39.38:049][ 67]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.39.38:915][167]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.39.38:928][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.39.38:928][167]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:39:38)
+[2021.01.04-12.39.38:955][167]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.39.38:968][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013258s)
+[2021.01.04-12.39.38:969][167]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.39.38:969][167]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000175196F1400), frame # 74167
+[2021.01.04-12.39.38:969][167]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001753259D6C0), frame # 74167
+[2021.01.04-12.39.38:969][167]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2021.01.04-12.39.38:969][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014488s)
+[2021.01.04-12.39.38:988][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.39.38:989][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.39.38:989][167]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.39.38:989][167]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.39.38:992][167]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.39.38:992][167]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.39.39:015][167]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.39.39:016][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.39.39:016][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.39.39:016][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.39.39:016][167]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.39.39:026][167]LogInit: FAudioDevice initialized.
+[2021.01.04-12.39.39:032][167]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.39.39:035][167]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.39.39
+[2021.01.04-12.39.39:035][167]LogWorld: Bringing up level for play took: 0.003008
+[2021.01.04-12.39.39:036][167]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.01.04-12.39.39:037][167]PIE: Server logged in
+[2021.01.04-12.39.39:038][167]PIE: Play in editor total start time 0.11 seconds.
+[2021.01.04-12.39.47:455][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.39.47:455][170]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.39.47:456][170]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.39.47:456][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.39.47:469][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.39.47:472][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.39.47:515][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.39.47:516][170]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001753259D6C0), frame # 75170
+[2021.01.04-12.39.47:516][170]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000175196F1400), frame # 75170
+[2021.01.04-12.39.47:518][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.04-12.39.47:551][171]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.01.04-12.39.53:384][825]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.39.53:415][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.01.04-12.39.53:877][865]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnF69E49614DF734438256AC8795836165.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.39.53:889][865]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.39.53:889][865]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.39.59:405][505]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.39.59:438][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.04-12.39.59:855][539]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn648BF092460246C9CA608E9716A3597B.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.39.59:868][539]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.39.59:868][539]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.40.00:640][625]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.40.00:653][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.40.00:653][625]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:40:00)
+[2021.01.04-12.40.00:674][625]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.40.00:687][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012406s)
+[2021.01.04-12.40.00:688][625]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.40.00:688][625]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017524072400), frame # 76625
+[2021.01.04-12.40.00:688][625]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017521695E40), frame # 76625
+[2021.01.04-12.40.00:688][625]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2021.01.04-12.40.00:688][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013663s)
+[2021.01.04-12.40.00:708][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.40.00:709][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.40.00:709][625]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.40.00:709][625]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.40.00:712][625]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.40.00:712][625]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.40.00:736][625]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.40.00:736][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.40.00:736][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.40.00:736][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.40.00:736][625]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.40.00:746][625]LogInit: FAudioDevice initialized.
+[2021.01.04-12.40.00:756][625]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.40.00:759][625]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.40.00
+[2021.01.04-12.40.00:759][625]LogWorld: Bringing up level for play took: 0.003018
+[2021.01.04-12.40.00:760][625]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.01.04-12.40.00:761][625]PIE: Server logged in
+[2021.01.04-12.40.00:762][625]PIE: Play in editor total start time 0.109 seconds.
+[2021.01.04-12.40.21:845][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.40.21:845][150]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.40.21:846][150]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.40.21:846][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.40.21:863][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.40.21:866][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.40.21:910][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.40.21:911][150]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017521695E40), frame # 79150
+[2021.01.04-12.40.21:911][150]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017524072400), frame # 79150
+[2021.01.04-12.40.21:913][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.01.04-12.40.21:949][151]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.01.04-12.40.23:565][331]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn0DD5655B47FAD2A0219354B125881463.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.40.23:578][331]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.40.23:578][331]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.40.54:523][964]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.40.54:555][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.01.04-12.40.55:142][ 21]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnC886C758413FC1A28D9B8EA635F64452.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.40.55:155][ 21]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.40.55:155][ 21]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.41.43:980][757]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.41.44:013][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.01.04-12.41.44:408][791]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn6FFD38F94DB3915FB3E662AD15D41863.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.41.44:419][791]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.41.44:419][791]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.41.47:749][170]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn5F6B86F34B67D8FAA197D7BB4F22D991.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.41.47:759][170]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.41.47:759][170]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.41.58:325][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.01.04-12.41.58:370][398]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap097DC2714E1126BDF6A07FAD5F53849E.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.41.58:540][398]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltDataB3004BE74413C77299B20AAFC34CA919.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.41.58:550][398]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.41.58:550][398]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.41.58:550][398]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.41.58:889][439]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.41.58:902][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.41.58:902][439]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:41:58)
+[2021.01.04-12.41.58:924][439]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.41.58:940][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015180s)
+[2021.01.04-12.41.58:941][439]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.41.58:941][439]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017509A1BE00), frame # 90439
+[2021.01.04-12.41.58:941][439]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017526539440), frame # 90439
+[2021.01.04-12.41.58:941][439]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2021.01.04-12.41.58:941][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.016413s)
+[2021.01.04-12.41.58:959][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.41.58:959][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.41.58:959][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.41.58:960][439]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.41.58:960][439]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.41.58:962][439]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.41.58:962][439]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.41.58:987][439]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.41.58:987][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.41.58:987][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.41.58:987][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.41.58:988][439]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.41.58:998][439]LogInit: FAudioDevice initialized.
+[2021.01.04-12.41.59:003][439]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.41.59:006][439]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.41.59
+[2021.01.04-12.41.59:006][439]LogWorld: Bringing up level for play took: 0.003033
+[2021.01.04-12.41.59:006][439]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.04-12.41.59:008][439]PIE: Server logged in
+[2021.01.04-12.41.59:008][439]PIE: Play in editor total start time 0.107 seconds.
+[2021.01.04-12.42.08:275][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.42.08:275][544]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.42.08:275][544]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.42.08:276][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.42.08:294][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.42.08:297][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.42.08:313][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.42.08:349][544]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017526539440), frame # 91544
+[2021.01.04-12.42.08:349][544]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017509A1BE00), frame # 91544
+[2021.01.04-12.42.08:351][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.01.04-12.42.08:384][545]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.01.04-12.43.02:277][849]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.04-12.43.02:281][849]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.04-12.43.03:118][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.01.04-12.43.03:176][939]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap5D8BDD4E4D6293BDC17C31BA362B090A.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.43.03:356][939]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData6327DD2342FA364496C251947754A066.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.43.03:364][939]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.43.03:364][939]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.43.03:364][939]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.43.16:583][456]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-12.43.30:230][926]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.43.30:235][926]LogBlueprint: Warning: [Compiler FlyingPawn] Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
+[2021.01.04-12.43.30:263][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.01.04-12.43.30:324][926]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.04-12.43.38:981][923]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.43.39:012][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.01.04-12.43.39:395][955]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn5AA736954DB03D9F4D7E74A65F396BBE.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.43.39:408][955]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.43.39:408][955]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.43.40:928][125]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.43.40:941][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.43.40:941][125]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:43:40)
+[2021.01.04-12.43.40:941][125]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.43.40:955][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013501s)
+[2021.01.04-12.43.40:956][125]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.43.40:956][125]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001752969E400), frame # 101125
+[2021.01.04-12.43.40:956][125]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001752E009E40), frame # 101125
+[2021.01.04-12.43.40:956][125]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2021.01.04-12.43.40:956][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014715s)
+[2021.01.04-12.43.40:976][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.43.40:977][125]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.43.40:977][125]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.43.40:977][125]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.43.40:980][125]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.43.40:980][125]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.43.41:004][125]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.43.41:004][125]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.43.41:004][125]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.43.41:004][125]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.43.41:005][125]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.43.41:014][125]LogInit: FAudioDevice initialized.
+[2021.01.04-12.43.41:019][125]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.43.41:022][125]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.43.41
+[2021.01.04-12.43.41:022][125]LogWorld: Bringing up level for play took: 0.002934
+[2021.01.04-12.43.41:023][125]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.04-12.43.41:024][125]PIE: Server logged in
+[2021.01.04-12.43.41:025][125]PIE: Play in editor total start time 0.084 seconds.
+[2021.01.04-12.43.42:415][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.43.42:415][286]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.43.42:415][286]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.43.42:416][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.43.42:430][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.43.42:433][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.43.42:480][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.43.42:481][286]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001752E009E40), frame # 101286
+[2021.01.04-12.43.42:481][286]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001752969E400), frame # 101286
+[2021.01.04-12.43.42:483][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.01.04-12.43.42:517][287]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.01.04-12.44.01:385][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.04-12.44.01:431][ 53]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMapB5816C1841F5F90C620C5683C0A23647.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.44.01:635][ 53]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData7A3C10F14551C2F273A5CAB55D4695C4.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.44.01:647][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.44.01:647][ 53]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.44.01:647][ 53]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.44.17:926][876]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.44.17:958][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.01.04-12.44.18:377][912]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnFEBD0958432A5C4480834AA06802ED03.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.44.18:388][912]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.44.18:388][912]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.44.19:352][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.44.19:364][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.44.19:364][ 22]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:44:19)
+[2021.01.04-12.44.19:394][ 22]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.44.19:407][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012992s)
+[2021.01.04-12.44.19:408][ 22]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.44.19:408][ 22]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001752243FE00), frame # 105022
+[2021.01.04-12.44.19:408][ 22]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017531652340), frame # 105022
+[2021.01.04-12.44.19:408][ 22]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2021.01.04-12.44.19:408][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014089s)
+[2021.01.04-12.44.19:429][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.44.19:430][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.44.19:430][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.44.19:431][ 22]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.44.19:431][ 22]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.44.19:433][ 22]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.44.19:433][ 22]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.44.19:456][ 22]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.44.19:456][ 22]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.44.19:456][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.44.19:457][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.44.19:457][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.44.19:466][ 22]LogInit: FAudioDevice initialized.
+[2021.01.04-12.44.19:472][ 22]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.44.19:475][ 22]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.44.19
+[2021.01.04-12.44.19:475][ 22]LogWorld: Bringing up level for play took: 0.003202
+[2021.01.04-12.44.19:476][ 22]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.04-12.44.19:477][ 22]PIE: Server logged in
+[2021.01.04-12.44.19:478][ 22]PIE: Play in editor total start time 0.114 seconds.
+[2021.01.04-12.44.23:115][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.44.23:115][452]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.44.23:115][452]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.44.23:116][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.44.23:131][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.44.23:134][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.44.23:184][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.44.23:185][452]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017531652340), frame # 105452
+[2021.01.04-12.44.23:185][452]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001752243FE00), frame # 105452
+[2021.01.04-12.44.23:187][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.01.04-12.44.23:220][453]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.01.04-12.44.37:815][ 64]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.44.37:844][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.01.04-12.44.38:280][106]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn9119381A4700FEE6DCB225B877EC92E4.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.44.38:292][106]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.44.38:292][106]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.44.39:146][205]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.44.39:159][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.44.39:159][205]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:44:39)
+[2021.01.04-12.44.39:194][205]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.44.39:209][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014476s)
+[2021.01.04-12.44.39:209][205]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.44.39:210][205]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017509A18400), frame # 107205
+[2021.01.04-12.44.39:210][205]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001753FA4DBC0), frame # 107205
+[2021.01.04-12.44.39:210][205]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2021.01.04-12.44.39:210][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.015462s)
+[2021.01.04-12.44.39:229][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.44.39:231][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.44.39:231][205]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.44.39:231][205]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.44.39:234][205]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.44.39:234][205]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.44.39:258][205]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.44.39:258][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.44.39:258][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.44.39:258][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.44.39:258][205]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.44.39:269][205]LogInit: FAudioDevice initialized.
+[2021.01.04-12.44.39:273][205]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.44.39:276][205]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.44.39
+[2021.01.04-12.44.39:276][205]LogWorld: Bringing up level for play took: 0.003203
+[2021.01.04-12.44.39:277][205]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.04-12.44.39:278][205]PIE: Server logged in
+[2021.01.04-12.44.39:279][205]PIE: Play in editor total start time 0.121 seconds.
+[2021.01.04-12.44.40:845][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.44.40:845][387]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.44.40:845][387]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.44.40:846][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.44.40:859][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.44.40:862][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.44.40:917][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.44.40:918][387]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001753FA4DBC0), frame # 107387
+[2021.01.04-12.44.40:918][387]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017509A18400), frame # 107387
+[2021.01.04-12.44.40:920][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.01.04-12.44.40:954][388]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.04-12.45.09:308][669]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.45.09:338][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.01.04-12.45.09:777][712]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnE79F3A7448AFB9604C9B2FB116A85B2C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.45.09:786][712]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.45.09:786][712]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.45.13:248][118]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.45.13:261][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.45.13:261][118]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:45:13)
+[2021.01.04-12.45.13:284][118]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.45.13:297][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013046s)
+[2021.01.04-12.45.13:298][118]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.45.13:298][118]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017537D93A00), frame # 111118
+[2021.01.04-12.45.13:298][118]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017531653EC0), frame # 111118
+[2021.01.04-12.45.13:298][118]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2021.01.04-12.45.13:298][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014270s)
+[2021.01.04-12.45.13:318][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.45.13:319][118]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.45.13:319][118]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.45.13:319][118]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.45.13:322][118]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.45.13:322][118]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.45.13:346][118]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.45.13:346][118]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.45.13:346][118]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.45.13:346][118]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.45.13:346][118]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.45.13:356][118]LogInit: FAudioDevice initialized.
+[2021.01.04-12.45.13:360][118]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.45.13:363][118]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.45.13
+[2021.01.04-12.45.13:363][118]LogWorld: Bringing up level for play took: 0.002867
+[2021.01.04-12.45.13:363][118]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.04-12.45.13:364][118]PIE: Server logged in
+[2021.01.04-12.45.13:365][118]PIE: Play in editor total start time 0.104 seconds.
+[2021.01.04-12.46.19:325][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.46.19:325][475]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.46.19:325][475]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.46.19:326][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.46.19:339][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.46.19:342][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.46.19:396][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.46.19:397][475]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017531653EC0), frame # 118475
+[2021.01.04-12.46.19:397][475]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017537D93A00), frame # 118475
+[2021.01.04-12.46.19:398][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.04-12.46.19:431][476]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.04-12.46.20:245][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.01.04-12.46.20:289][566]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap89CDBF1A4D584A4BDC14FF921A3814EC.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.46.20:456][566]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData9F020E814446DE1FD31E91A0D8B07C6A.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.46.20:467][566]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.46.20:467][566]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.46.20:467][566]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.46.50:369][ 83]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.46.50:398][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.01.04-12.46.50:749][116]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnF0164431470DC74A3F68A6AA42007E9F.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.46.50:761][116]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.46.50:761][116]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.46.51:595][213]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.46.51:607][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.46.51:607][213]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:46:51)
+[2021.01.04-12.46.51:607][213]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.46.51:620][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012216s)
+[2021.01.04-12.46.51:620][213]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.46.51:620][213]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017514E8C200), frame # 122213
+[2021.01.04-12.46.51:620][213]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001753FC23240), frame # 122213
+[2021.01.04-12.46.51:621][213]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2021.01.04-12.46.51:621][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013204s)
+[2021.01.04-12.46.51:638][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.46.51:639][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.46.51:639][213]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.46.51:639][213]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.46.51:642][213]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.46.51:642][213]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.46.51:667][213]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.46.51:667][213]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.46.51:667][213]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.46.51:667][213]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.46.51:667][213]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.46.51:676][213]LogInit: FAudioDevice initialized.
+[2021.01.04-12.46.51:682][213]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.46.51:685][213]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.46.51
+[2021.01.04-12.46.51:685][213]LogWorld: Bringing up level for play took: 0.003027
+[2021.01.04-12.46.51:686][213]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.01.04-12.46.51:687][213]PIE: Server logged in
+[2021.01.04-12.46.51:688][213]PIE: Play in editor total start time 0.08 seconds.
+[2021.01.04-12.46.53:085][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.46.53:085][375]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.46.53:085][375]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.46.53:085][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.46.53:099][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.46.53:102][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.46.53:144][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.46.53:145][375]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001753FC23240), frame # 122375
+[2021.01.04-12.46.53:145][375]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017514E8C200), frame # 122375
+[2021.01.04-12.46.53:147][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.01.04-12.46.53:179][376]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.01.04-12.46.58:102][942]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.46.58:131][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.01.04-12.46.58:450][971]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnD8C176694ECD3F03FA1207AEDE8A8AEF.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.46.58:461][971]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.46.58:461][971]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.46.59:562][100]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.46.59:575][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.46.59:575][100]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:46:59)
+[2021.01.04-12.46.59:604][100]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.46.59:617][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012829s)
+[2021.01.04-12.46.59:618][100]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.46.59:618][100]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000174F49E0C00), frame # 123100
+[2021.01.04-12.46.59:618][100]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017531651D00), frame # 123100
+[2021.01.04-12.46.59:618][100]LogPlayLevel: PIE: World Init took: (0.001471s)
+[2021.01.04-12.46.59:618][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014476s)
+[2021.01.04-12.46.59:637][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.46.59:638][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.46.59:638][100]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.46.59:638][100]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.46.59:641][100]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.46.59:641][100]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.46.59:663][100]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.46.59:663][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.46.59:663][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.46.59:663][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.46.59:664][100]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.46.59:673][100]LogInit: FAudioDevice initialized.
+[2021.01.04-12.46.59:679][100]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.46.59:682][100]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.46.59
+[2021.01.04-12.46.59:682][100]LogWorld: Bringing up level for play took: 0.002915
+[2021.01.04-12.46.59:682][100]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.01.04-12.46.59:685][100]PIE: Server logged in
+[2021.01.04-12.46.59:685][100]PIE: Play in editor total start time 0.111 seconds.
+[2021.01.04-12.47.00:864][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.47.00:865][235]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.47.00:865][235]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.47.00:865][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.47.00:881][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.47.00:884][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.47.00:922][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.47.00:923][235]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017531651D00), frame # 123235
+[2021.01.04-12.47.00:924][235]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000174F49E0C00), frame # 123235
+[2021.01.04-12.47.00:926][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.01.04-12.47.00:959][236]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.01.04-12.47.28:810][491]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnF080E9E14371F3AE6477A8B053D1E7A2.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.47.28:820][491]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.47.28:820][491]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.48.23:184][454]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.48.23:213][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.01.04-12.48.23:621][491]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnE4DE717D4C7AAB269B59CF99FF95DDDF.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.48.23:631][491]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.48.23:631][491]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.48.24:497][593]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.48.24:510][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.48.24:510][593]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:48:24)
+[2021.01.04-12.48.24:534][593]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.48.24:547][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012650s)
+[2021.01.04-12.48.24:548][593]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.48.24:548][593]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001750D64BE00), frame # 128593
+[2021.01.04-12.48.24:548][593]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000174DEE91BC0), frame # 128593
+[2021.01.04-12.48.24:548][593]LogPlayLevel: PIE: World Init took: (0.001481s)
+[2021.01.04-12.48.24:548][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014342s)
+[2021.01.04-12.48.24:567][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.48.24:568][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.48.24:568][593]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.48.24:568][593]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.48.24:571][593]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.48.24:571][593]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.48.24:594][593]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.48.24:594][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.48.24:594][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.48.24:594][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.48.24:594][593]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.48.24:604][593]LogInit: FAudioDevice initialized.
+[2021.01.04-12.48.24:608][593]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.48.24:611][593]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.48.24
+[2021.01.04-12.48.24:611][593]LogWorld: Bringing up level for play took: 0.003067
+[2021.01.04-12.48.24:612][593]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.01.04-12.48.24:613][593]PIE: Server logged in
+[2021.01.04-12.48.24:614][593]PIE: Play in editor total start time 0.104 seconds.
+[2021.01.04-12.48.26:134][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.48.26:134][770]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.48.26:135][770]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.48.26:135][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.48.26:149][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.48.26:152][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.48.26:194][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.48.26:195][770]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000174DEE91BC0), frame # 128770
+[2021.01.04-12.48.26:195][770]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001750D64BE00), frame # 128770
+[2021.01.04-12.48.26:197][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.04-12.48.26:229][771]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.01.04-12.48.30:294][242]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.48.30:323][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.01.04-12.48.30:753][284]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn379AE46648AA696E1A97ADBF72C1B08A.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.48.30:762][284]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.48.30:762][284]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.48.32:009][428]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.48.32:022][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.48.32:022][428]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:48:32)
+[2021.01.04-12.48.32:044][428]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.48.32:056][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011802s)
+[2021.01.04-12.48.32:057][428]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.48.32:057][428]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001750AA05C00), frame # 129428
+[2021.01.04-12.48.32:057][428]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000174DEE85F80), frame # 129428
+[2021.01.04-12.48.32:057][428]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2021.01.04-12.48.32:057][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.012939s)
+[2021.01.04-12.48.32:076][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.48.32:077][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.48.32:077][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.48.32:078][428]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.48.32:078][428]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.48.32:080][428]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.48.32:080][428]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.48.32:102][428]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.48.32:102][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.48.32:102][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.48.32:102][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.48.32:103][428]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.48.32:112][428]LogInit: FAudioDevice initialized.
+[2021.01.04-12.48.32:117][428]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.48.32:120][428]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.48.32
+[2021.01.04-12.48.32:121][428]LogWorld: Bringing up level for play took: 0.003236
+[2021.01.04-12.48.32:121][428]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.01.04-12.48.32:122][428]PIE: Server logged in
+[2021.01.04-12.48.32:123][428]PIE: Play in editor total start time 0.102 seconds.
+[2021.01.04-12.48.33:455][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.48.33:455][583]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.48.33:455][583]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.48.33:455][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.48.33:470][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.48.33:473][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.48.33:521][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.48.33:522][583]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000174DEE85F80), frame # 129583
+[2021.01.04-12.48.33:522][583]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001750AA05C00), frame # 129583
+[2021.01.04-12.48.33:524][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.01.04-12.48.33:555][584]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.01.04-12.49.11:165][961]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.49.11:195][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.01.04-12.49.11:520][991]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn5F6163BC4A0AEB96115A60A4B990AFEB.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.49.11:531][991]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.49.11:531][991]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.49.12:514][106]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.49.12:527][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.49.12:527][106]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:49:12)
+[2021.01.04-12.49.12:554][106]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.49.12:566][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012347s)
+[2021.01.04-12.49.12:567][106]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.49.12:567][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000175217E5C00), frame # 134106
+[2021.01.04-12.49.12:567][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000175294E6840), frame # 134106
+[2021.01.04-12.49.12:568][106]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2021.01.04-12.49.12:568][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013745s)
+[2021.01.04-12.49.12:597][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.49.12:598][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.49.12:598][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.49.12:599][106]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.49.12:599][106]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.49.12:601][106]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.49.12:601][106]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.49.12:624][106]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.49.12:624][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.49.12:624][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.49.12:624][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.49.12:624][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.49.12:633][106]LogInit: FAudioDevice initialized.
+[2021.01.04-12.49.12:639][106]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.49.12:642][106]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.49.12
+[2021.01.04-12.49.12:642][106]LogWorld: Bringing up level for play took: 0.002998
+[2021.01.04-12.49.12:642][106]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.01.04-12.49.12:643][106]PIE: Server logged in
+[2021.01.04-12.49.12:644][106]PIE: Play in editor total start time 0.118 seconds.
+[2021.01.04-12.49.18:754][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.49.18:754][834]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.49.18:754][834]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.49.18:755][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.49.18:770][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.49.18:773][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.49.18:827][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.49.18:828][834]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000175294E6840), frame # 134834
+[2021.01.04-12.49.18:828][834]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000175217E5C00), frame # 134834
+[2021.01.04-12.49.18:830][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.01.04-12.49.18:863][835]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.01.04-12.49.26:365][698]LogEditorTransaction: Undo Move Node
+[2021.01.04-12.49.26:670][717]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-12.49.27:074][753]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-12.49.27:742][830]LogEditorTransaction: Undo Move Node
+[2021.01.04-12.49.28:079][867]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-12.49.28:343][895]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-12.49.28:520][913]LogEditorTransaction: Undo Break Pin Links
+[2021.01.04-12.49.28:652][925]LogEditorTransaction: Undo Move Node
+[2021.01.04-12.49.28:788][938]LogEditorTransaction: Undo Add Node
+[2021.01.04-12.49.28:961][955]LogEditorTransaction: Undo Add Component Nodes
+[2021.01.04-12.49.29:122][971]LogEditorTransaction: Undo Move Node
+[2021.01.04-12.49.29:268][985]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-12.49.29:398][997]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-12.49.29:609][ 19]LogEditorTransaction: Undo Break Pin Links
+[2021.01.04-12.49.29:779][ 36]LogEditorTransaction: Undo Move Node
+[2021.01.04-12.49.29:932][ 51]LogEditorTransaction: Undo Move Node
+[2021.01.04-12.49.30:258][ 87]LogEditorTransaction: Undo Add Node
+[2021.01.04-12.49.30:535][117]LogEditorTransaction: Undo Add Component Nodes
+[2021.01.04-12.49.32:510][340]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.49.32:545][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.04-12.49.32:910][374]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnDB9C272F477FDC4767A349B3F88D60C2.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.49.32:922][374]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.49.32:922][374]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.50.40:901][474]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.50.40:931][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.01.04-12.50.41:390][520]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn8CD005A54E85C28839482C8A3498BFC8.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.50.41:400][520]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.50.41:400][520]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.50.42:457][643]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.50.42:470][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.50.42:470][643]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:50:42)
+[2021.01.04-12.50.42:504][643]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.50.42:515][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011776s)
+[2021.01.04-12.50.42:516][643]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.50.42:516][643]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000175476E0600), frame # 144643
+[2021.01.04-12.50.42:516][643]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017532696480), frame # 144643
+[2021.01.04-12.50.42:517][643]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2021.01.04-12.50.42:517][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013079s)
+[2021.01.04-12.50.42:540][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.01.04-12.50.42:541][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.50.42:541][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.50.42:542][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.50.42:542][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.50.42:542][643]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.50.42:542][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.50.42:542][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.50.42:542][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.50.42:542][643]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.50.42:542][643]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.50.42:544][643]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.50.42:544][643]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.50.42:568][643]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.50.42:568][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.50.42:568][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.50.42:568][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.50.42:568][643]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.50.42:578][643]LogInit: FAudioDevice initialized.
+[2021.01.04-12.50.42:586][643]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.50.42:589][643]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.50.42
+[2021.01.04-12.50.42:589][643]LogWorld: Bringing up level for play took: 0.003002
+[2021.01.04-12.50.42:589][643]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.01.04-12.50.42:590][643]PIE: Server logged in
+[2021.01.04-12.50.42:591][643]PIE: Play in editor total start time 0.121 seconds.
+[2021.01.04-12.50.45:014][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.50.45:015][929]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.50.45:015][929]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.50.45:015][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.50.45:028][929]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.50.45:031][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.50.45:069][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.50.45:069][929]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017532696480), frame # 144929
+[2021.01.04-12.50.45:070][929]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000175476E0600), frame # 144929
+[2021.01.04-12.50.45:071][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.04-12.50.45:103][930]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.01.04-12.50.53:279][886]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.50.53:308][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.01.04-12.50.53:632][916]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn9EA3397040814064C214B5999108E198.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.50.53:641][916]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.50.53:641][916]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.55.10:611][875]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.55.10:643][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.01.04-12.55.11:064][913]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnB4EB27E74B92543A29513BA780B12665.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.55.11:079][913]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.55.11:079][913]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.55.12:130][ 35]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.55.12:145][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.55.12:145][ 35]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:55:12)
+[2021.01.04-12.55.12:173][ 35]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.55.12:187][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013730s)
+[2021.01.04-12.55.12:189][ 35]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.55.12:189][ 35]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001754CE97E00), frame # 153035
+[2021.01.04-12.55.12:189][ 35]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000174DEE96C00), frame # 153035
+[2021.01.04-12.55.12:189][ 35]LogPlayLevel: PIE: World Init took: (0.001619s)
+[2021.01.04-12.55.12:189][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.015544s)
+[2021.01.04-12.55.12:207][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.55.12:209][ 35]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.55.12:209][ 35]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.55.12:209][ 35]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.55.12:212][ 35]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.55.12:212][ 35]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.55.12:237][ 35]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.55.12:237][ 35]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.55.12:237][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.55.12:237][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.55.12:238][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.55.12:247][ 35]LogInit: FAudioDevice initialized.
+[2021.01.04-12.55.12:255][ 35]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.55.12:258][ 35]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.55.12
+[2021.01.04-12.55.12:258][ 35]LogWorld: Bringing up level for play took: 0.002995
+[2021.01.04-12.55.12:258][ 35]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.04-12.55.12:260][ 35]PIE: Server logged in
+[2021.01.04-12.55.12:260][ 35]PIE: Play in editor total start time 0.117 seconds.
+[2021.01.04-12.55.14:214][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.55.14:214][263]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.55.14:214][263]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.55.14:215][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.55.14:233][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.55.14:236][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.55.14:277][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.55.14:278][263]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000174DEE96C00), frame # 153263
+[2021.01.04-12.55.14:278][263]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001754CE97E00), frame # 153263
+[2021.01.04-12.55.14:280][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.01.04-12.55.14:316][264]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.01.04-12.55.19:596][866]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnCCAAEA7347D9E4ACA07F7BA3822EBFAB.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.55.19:605][866]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.55.19:605][866]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.55.20:170][929]LogRenderer: Reallocating scene render targets to support 1208x740 Format 10 NumSamples 1 (Frame:1).
+[2021.01.04-12.55.25:716][577]LogEditorTransaction: Undo Modify Component(s)
+[2021.01.04-12.55.26:704][670]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.55.26:744][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.01.04-12.55.27:129][708]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnCDAE1DDD46447E009CF019A96A911EBB.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.55.27:139][708]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.55.27:139][708]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.55.28:998][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.04-12.55.29:056][927]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMapBB39F9264D40C65EA43A85A5B313E9BC.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.55.29:252][927]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltDataB65FBE4A44F727DD956A31900D5E4EA1.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.55.29:264][927]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.55.29:264][927]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.55.29:264][927]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-12.55.30:296][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.55.30:310][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.55.30:310][ 49]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:55:30)
+[2021.01.04-12.55.30:310][ 49]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.55.30:323][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012802s)
+[2021.01.04-12.55.30:324][ 49]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.55.30:324][ 49]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001752928C200), frame # 155049
+[2021.01.04-12.55.30:324][ 49]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001751566EC00), frame # 155049
+[2021.01.04-12.55.30:324][ 49]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2021.01.04-12.55.30:324][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013823s)
+[2021.01.04-12.55.30:343][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.01.04-12.55.30:344][ 49]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.55.30:345][ 49]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.55.30:345][ 49]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.55.30:345][ 49]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.55.30:347][ 49]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.55.30:347][ 49]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.55.30:371][ 49]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.55.30:371][ 49]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.55.30:371][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.55.30:371][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.55.30:371][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.55.30:380][ 49]LogInit: FAudioDevice initialized.
+[2021.01.04-12.55.30:390][ 49]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.55.30:393][ 49]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.55.30
+[2021.01.04-12.55.30:393][ 49]LogWorld: Bringing up level for play took: 0.002962
+[2021.01.04-12.55.30:394][ 49]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.01.04-12.55.30:395][ 49]PIE: Server logged in
+[2021.01.04-12.55.30:396][ 49]PIE: Play in editor total start time 0.086 seconds.
+[2021.01.04-12.55.33:150][364]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2021.01.04-12.55.40:634][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_4)
+[2021.01.04-12.55.47:514][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.55.47:514][955]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.55.47:514][955]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.55.47:515][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.55.47:528][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.55.47:531][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.55.47:545][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.55.47:576][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001751566EC00), frame # 156955
+[2021.01.04-12.55.47:576][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001752928C200), frame # 156955
+[2021.01.04-12.55.47:578][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.01.04-12.55.47:616][956]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.01.04-12.56.02:233][658]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.56.02:262][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.01.04-12.56.02:694][699]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn29DC862A4D90FAF37B7C35B78911DB0D.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.56.02:704][699]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.56.02:704][699]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.56.16:229][277]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.56.16:258][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.04-12.56.16:613][309]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn14D00488489360E2EFAB2895C35D22E4.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.56.16:625][309]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.56.16:625][309]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.56.17:528][409]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.56.17:541][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.56.17:541][409]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:56:17)
+[2021.01.04-12.56.17:564][409]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.56.17:576][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012401s)
+[2021.01.04-12.56.17:577][409]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.56.17:577][409]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000175329E4A00), frame # 160409
+[2021.01.04-12.56.17:577][409]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017532839A80), frame # 160409
+[2021.01.04-12.56.17:577][409]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2021.01.04-12.56.17:577][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.013593s)
+[2021.01.04-12.56.17:597][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.56.17:599][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.56.17:599][409]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.56.17:599][409]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.56.17:602][409]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.56.17:602][409]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.56.17:640][409]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.56.17:641][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.56.17:641][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.56.17:641][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.56.17:641][409]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.56.17:650][409]LogInit: FAudioDevice initialized.
+[2021.01.04-12.56.17:658][409]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.56.17:661][409]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.56.17
+[2021.01.04-12.56.17:661][409]LogWorld: Bringing up level for play took: 0.002932
+[2021.01.04-12.56.17:662][409]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.01.04-12.56.17:663][409]PIE: Server logged in
+[2021.01.04-12.56.17:664][409]PIE: Play in editor total start time 0.123 seconds.
+[2021.01.04-12.56.21:874][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.56.21:874][909]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.56.21:874][909]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.56.21:875][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.56.21:889][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.56.21:891][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.56.21:939][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.56.21:940][909]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017532839A80), frame # 160909
+[2021.01.04-12.56.21:940][909]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000175329E4A00), frame # 160909
+[2021.01.04-12.56.21:942][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.01.04-12.56.21:979][910]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.01.04-12.56.25:890][343]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.56.25:919][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.01.04-12.56.26:255][374]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawnB9AE1C8B4CD4F89828D20E8EDD8D49E1.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.56.26:267][374]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.56.26:267][374]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.56.27:722][540]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-12.56.27:736][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-12.56.27:736][540]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 12:56:27)
+[2021.01.04-12.56.27:736][540]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.56.27:749][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013004s)
+[2021.01.04-12.56.27:751][540]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-12.56.27:751][540]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017489BFBE00), frame # 161540
+[2021.01.04-12.56.27:751][540]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000174DF82B380), frame # 161540
+[2021.01.04-12.56.27:751][540]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2021.01.04-12.56.27:751][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014322s)
+[2021.01.04-12.56.27:769][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.01.04-12.56.27:770][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-12.56.27:771][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-12.56.27:771][540]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-12.56.27:771][540]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-12.56.27:773][540]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-12.56.27:773][540]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-12.56.27:796][540]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-12.56.27:796][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-12.56.27:796][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-12.56.27:796][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-12.56.27:797][540]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-12.56.27:806][540]LogInit: FAudioDevice initialized.
+[2021.01.04-12.56.27:812][540]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-12.56.27:815][540]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-12.56.27
+[2021.01.04-12.56.27:816][540]LogWorld: Bringing up level for play took: 0.003384
+[2021.01.04-12.56.27:816][540]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.01.04-12.56.27:817][540]PIE: Server logged in
+[2021.01.04-12.56.27:818][540]PIE: Play in editor total start time 0.082 seconds.
+[2021.01.04-12.56.32:315][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.56.32:315][ 73]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-12.56.32:315][ 73]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-12.56.32:316][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.56.32:330][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-12.56.32:332][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-12.56.32:391][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-12.56.32:393][ 73]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000174DF82B380), frame # 162073
+[2021.01.04-12.56.32:393][ 73]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017489BFBE00), frame # 162073
+[2021.01.04-12.56.32:395][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.01.04-12.56.32:431][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.01.04-12.57.02:170][495]BlueprintLog: New page: Compile FlyingPawn
+[2021.01.04-12.57.02:200][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.01.04-12.57.05:230][840]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingPawn8648B21048C007E46ACDE889C31E5FF2.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2021.01.04-12.57.05:241][840]AssetCheck: New page: Asset Save: FlyingPawn
+[2021.01.04-12.57.05:241][840]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn
+[2021.01.04-12.57.06:550][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.01.04-12.57.06:596][992]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap770B1F81422EA3D944CA999905CD0B7B.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-12.57.06:777][992]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData261BF74D4BE5CB4390ED9197B8B30E84.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-12.57.06:789][992]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-12.57.06:789][992]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-12.57.06:789][992]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
