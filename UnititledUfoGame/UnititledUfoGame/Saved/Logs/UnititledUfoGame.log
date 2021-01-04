@@ -7895,3 +7895,16 @@ Script Stack (0 frames):
 [2021.01.04-14.41.49:609][118]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Turret79D8625F43604B67F681D5AF10F40F16.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/Turret.uasset'
 [2021.01.04-14.41.49:619][118]AssetCheck: New page: Asset Save: Turret
 [2021.01.04-14.41.49:619][118]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/Turret.Turret
+[2021.01.04-14.43.01:269][539]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Turret31D003024BAE1F3DB39BAEA81FD064BE.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/Turret.uasset'
+[2021.01.04-14.43.01:281][539]AssetCheck: New page: Asset Save: Turret
+[2021.01.04-14.43.01:281][539]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/Turret.Turret
+[2021.01.04-14.43.03:183][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.01.04-14.43.03:222][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.01.04-14.43.03:282][758]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap99134ABD4986FB7E50A11781B10C8057.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.04-14.43.03:314][758]LogFileHelpers: Saving map 'FlyingExampleMap' took 0.118
+[2021.01.04-14.43.03:478][758]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData2025E34C47EA474AECDEB695771C5E9B.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.04-14.43.03:501][758]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/CowBox07A8EE614E58A221980F48AC8E171AEA.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Blueprints/CowBox.uasset'
+[2021.01.04-14.43.03:523][758]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.04-14.43.03:523][758]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.04-14.43.03:523][758]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.04-14.43.03:523][758]LogContentValidation: Display: Validating Material /Game/FlyingBP/Blueprints/CowBox.CowBox
