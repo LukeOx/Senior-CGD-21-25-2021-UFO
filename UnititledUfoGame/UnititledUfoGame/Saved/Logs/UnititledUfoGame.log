@@ -1,8 +1,8 @@
-﻿Log file open, 01/04/21 15:29:14
+﻿Log file open, 01/04/21 15:40:39
 LogInit: Display: Running engine for game: UnititledUfoGame
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.172067
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167359
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -139,13 +139,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-14469661
 LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 5 3600X 6-Core Processor             , GPU: NVIDIA GeForce GTX 970
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce GTX 1070
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line: 
-LogInit: Base Directory: D:/EPICGAMES/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line:  -EpicPortal -epicusername=SGKeox -epicuserid=1d131059a1014c1fab7c58c8146cf770 -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,510 +194,553 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:500][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.01.04-15.29.14:500][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.01.04-15.29.14:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:501][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:502][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.04-15.29.14:502][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.04-15.29.14:503][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.04-15.29.14:503][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.04-15.29.14:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.04-15.29.14:503][  0]LogHAL: Display: Platform has ~ 16 GB [17102921728 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.01.04-15.29.14:503][  0]LogInit: Going up to parent DeviceProfile []
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.04-15.29.14:504][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
-[2021.01.04-15.29.14:504][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.01.04-15.29.14:505][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
-[2021.01.04-15.29.14:505][  0]LogInit: Computer: DESKTOP-KGA8VCF
-[2021.01.04-15.29.14:505][  0]LogInit: User: 44756
-[2021.01.04-15.29.14:505][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.01.04-15.29.14:505][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.04-15.29.14:505][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.01.04-15.29.14:505][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.04-15.29.14:505][  0]LogMemory: Process Physical Memory: 115.74 MB used, 115.75 MB peak
-[2021.01.04-15.29.14:505][  0]LogMemory: Process Virtual Memory: 99.20 MB used, 99.20 MB peak
-[2021.01.04-15.29.14:505][  0]LogMemory: Physical Memory: 10005.96 MB used,  6304.65 MB free, 16310.62 MB total
-[2021.01.04-15.29.14:505][  0]LogMemory: Virtual Memory: 5166.88 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2021.01.04-15.29.14:509][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.01.04-15.29.14:542][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.01.04-15.29.14:544][  0]LogInit: Using OS detected language (en-GB).
-[2021.01.04-15.29.14:544][  0]LogInit: Using OS detected locale (en-GB).
-[2021.01.04-15.29.14:545][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2021.01.04-15.29.14:708][  0]LogInit: Setting process to per monitor DPI aware
-[2021.01.04-15.29.14:727][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.01.04-15.29.14:727][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.01.04-15.29.14:833][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.04-15.29.14:833][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.01.04-15.29.14:833][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.01.04-15.29.14:833][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.04-15.29.14:897][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2021.01.04-15.29.14:897][  0]LogD3D11RHI:       4043/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.01.04-15.29.14:899][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.04-15.29.14:899][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.04-15.29.14:899][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.04-15.29.14:906][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.04-15.29.14:906][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2021.01.04-15.29.14:906][  0]LogWindows: EnumDisplayDevices:
-[2021.01.04-15.29.14:906][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2021.01.04-15.29.14:906][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2021.01.04-15.29.14:906][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2021.01.04-15.29.14:906][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2021.01.04-15.29.14:906][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.01.04-15.29.14:906][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2021.01.04-15.29.14:906][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
-[2021.01.04-15.29.14:906][  0]LogD3D11RHI:      Driver Date: 12-11-2020
-[2021.01.04-15.29.14:906][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2021.01.04-15.29.14:949][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.01.04-15.29.14:950][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.04-15.29.14:950][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.01.04-15.29.14:967][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.01.04-15.29.15:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.01.04-15.29.15:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.01.04-15.29.15:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.01.04-15.29.15:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.01.04-15.29.15:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.01.04-15.29.15:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.01.04-15.29.15:246][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.01.04-15.29.15:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.01.04-15.29.15:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.01.04-15.29.15:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.01.04-15.29.15:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.01.04-15.29.15:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.01.04-15.29.15:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.01.04-15.29.15:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.01.04-15.29.15:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.01.04-15.29.15:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.01.04-15.29.15:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.01.04-15.29.15:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.01.04-15.29.15:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.01.04-15.29.15:341][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.01.04-15.29.15:346][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.01.04-15.29.15:387][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Intermediate/Shaders/WorkingDirectory/18496/).
-[2021.01.04-15.29.15:387][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/44756/AppData/Local/Temp/UnrealShaderWorkingDir/65434919441B4EA61383F2B4C48E6373/'.
-[2021.01.04-15.29.15:387][  0]LogXGEController: Cleaning working directory: C:/Users/44756/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.01.04-15.29.15:388][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.01.04-15.29.15:388][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.01.04-15.29.15:388][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.01.04-15.29.16:015][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.01.04-15.29.16:057][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/44756/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.04-15.29.16:057][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/44756/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.01.04-15.29.16:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.04-15.29.16:057][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.04-15.29.16:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.04-15.29.16:057][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.04-15.29.16:067][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.04-15.29.16:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.04-15.29.16:067][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.01.04-15.29.16:068][  0]LogDerivedDataCache: Using Local data cache path C:/Users/44756/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.04-15.29.16:068][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.01.04-15.29.16:068][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.01.04-15.29.16:110][  0]LogSlate: Using FreeType 2.10.0
-[2021.01.04-15.29.16:110][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.04-15.29.16:129][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
-[2021.01.04-15.29.16:329][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.04-15.29.16:414][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.04-15.29.16:414][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.01.04-15.29.16:414][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.01.04-15.29.16:414][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.01.04-15.29.16:414][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.01.04-15.29.16:425][  0]LogNetVersion: UnititledUfoGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1021350750)
-[2021.01.04-15.29.16:747][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E3CC905400), frame # 0
-[2021.01.04-15.29.16:747][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3CC862700), frame # 0
-[2021.01.04-15.29.16:748][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3CC8A9E00), frame # 0
-[2021.01.04-15.29.16:775][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.022099 seconds
-[2021.01.04-15.29.16:779][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.01.04-15.29.16:779][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.01.04-15.29.16:779][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.04-15.29.17:028][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.04-15.29.17:032][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.04-15.29.17:089][  0]SourceControl: Source control is disabled
-[2021.01.04-15.29.17:089][  0]SourceControl: Source control is disabled
-[2021.01.04-15.29.17:091][  0]SourceControl: Source control is disabled
-[2021.01.04-15.29.17:093][  0]SourceControl: Source control is disabled
-[2021.01.04-15.29.17:098][  0]SourceControl: Source control is disabled
-[2021.01.04-15.29.17:269][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.04-15.29.17:283][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.04-15.29.17:283][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.04-15.29.17:319][  0]LogOcInput: OculusInput pre-init called
-[2021.01.04-15.29.17:328][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.01.04-15.29.17:328][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.01.04-15.29.17:380][  0]LogEngine: Initializing Engine...
-[2021.01.04-15.29.17:381][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.04-15.29.17:381][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.01.04-15.29.17:382][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.01.04-15.29.17:470][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.01.04-15.29.17:477][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.01.04-15.29.17:477][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3CF1A8600), frame # 0
-[2021.01.04-15.29.17:477][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3CF1B4B80), frame # 0
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.04-15.29.17:488][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.04-15.29.17:488][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.04-15.29.17:488][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.04-15.29.17:498][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.04-15.29.17:498][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.01.04-15.29.17:524][  0]LogAudioMixer: Display: Using Audio Device Speakers (3- Focusrite Usb Audio)
-[2021.01.04-15.29.17:528][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.04-15.29.17:529][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.04-15.29.17:529][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.04-15.29.17:530][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.04-15.29.17:531][  0]LogInit: FAudioDevice initialized.
-[2021.01.04-15.29.17:531][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.01.04-15.29.17:602][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/44756/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.04-15.29.17:603][  0]LogInit: Texture streaming: Enabled
-[2021.01.04-15.29.17:614][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.01.04-15.29.17:614][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.01.04-15.29.17:615][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.01.04-15.29.17:648][  0]LogInit: Transaction tracking system initialized
-[2021.01.04-15.29.17:666][  0]BlueprintLog: New page: Editor Load
-[2021.01.04-15.29.17:721][  0]LocalizationService: Localization service is disabled
-[2021.01.04-15.29.17:831][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.01.04-15.29.17:831][  0]LogCook: Display: Mobile HDR setting 1
-[2021.01.04-15.29.17:929][  0]LogFileCache: Scanning file cache for directory 'C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Content/' took 0.00s
-[2021.01.04-15.29.18:063][  0]SourceControl: Source control is disabled
-[2021.01.04-15.29.18:063][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.468
-[2021.01.04-15.29.18:063][  0]Cmd: MAP LOAD FILE="C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.04-15.29.18:064][  0]LightingResults: New page: Lighting Build
-[2021.01.04-15.29.18:064][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.01.04-15.29.18:064][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.04-15.29.18:064][  0]MapCheck: New page: Map Check
-[2021.01.04-15.29.18:064][  0]LightingResults: New page: Lighting Build
-[2021.01.04-15.29.18:076][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E3CF1A8600), frame # 0
-[2021.01.04-15.29.18:076][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E3CF1B4B80), frame # 0
-[2021.01.04-15.29.18:077][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2021.01.04-15.29.18:207][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2021.01.04-15.29.18:207][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3C0EE7E00), frame # 0
-[2021.01.04-15.29.18:207][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3C0F7A840), frame # 0
-[2021.01.04-15.29.18:221][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.04-15.29.18:234][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2021.01.04-15.29.18:234][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.04-15.29.18:235][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.169ms to complete.
-[2021.01.04-15.29.18:235][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.171
-[2021.01.04-15.29.18:236][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.641
-[2021.01.04-15.29.18:351][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.04-15.29.18:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.04-15.29.18:363][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.04-15.29.18:369][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.04-15.29.18:373][  0]LogCollectionManager: Loaded 0 collections in 0.000677 seconds
-[2021.01.04-15.29.18:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Saved/Collections/' took 0.00s
-[2021.01.04-15.29.18:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Content/Developers/44756/Collections/' took 0.00s
-[2021.01.04-15.29.18:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Content/Collections/' took 0.00s
-[2021.01.04-15.29.18:386][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3427 classes and 821 folders.
-[2021.01.04-15.29.18:388][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.01.04-15.29.18:415][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.01.04-15.29.18:416][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 0 folders.
-[2021.01.04-15.29.18:445][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.01.04-15.29.18:447][  0]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.01.04-15.29.18:450][  0]LogSlate: Took 0.000076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.01.04-15.29.18:499][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2021.01.04-15.29.18:574][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.01.04-15.29.18:574][  0]LogLoad: (Engine Initialization) Total time: 4.98 seconds
-[2021.01.04-15.29.18:574][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.01.04-15.29.18:613][  0]LogAssetRegistry: Asset discovery search completed in 2.4834 seconds
-[2021.01.04-15.29.18:616][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.01.04-15.29.18:618][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.01.04-15.29.18:633][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.04-15.29.18:922][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/44756/Documents/GitHub/Senior-CGD-21-25-2021-UFO/UnititledUfoGame/UnititledUfoGame/Content/' took 0.33s
-[2021.01.04-15.29.19:946][  4]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.04-15.29.21:915][145]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.04-15.29.21:924][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.04-15.29.21:924][145]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 15:29:21)
-[2021.01.04-15.29.21:925][145]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.01.04-15.29.21:926][145]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.01.04-15.29.21:926][145]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2021.01.04-15.29.21:944][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018012s)
-[2021.01.04-15.29.21:945][145]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2021.01.04-15.29.21:945][145]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3F8B4BE00), frame # 145
-[2021.01.04-15.29.21:945][145]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E38FB2DBC0), frame # 145
-[2021.01.04-15.29.21:945][145]LogPlayLevel: PIE: World Init took: (0.001062s)
-[2021.01.04-15.29.21:945][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.019229s)
-[2021.01.04-15.29.21:967][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.04-15.29.21:970][145]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.04-15.29.21:970][145]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.04-15.29.21:970][145]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.04-15.29.21:975][145]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.04-15.29.21:975][145]LogAudioMixer: Display: 1: FrontRight
-[2021.01.04-15.29.21:985][145]LogAudioMixer: Display: Using Audio Device Speakers (3- Focusrite Usb Audio)
-[2021.01.04-15.29.21:985][145]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.04-15.29.21:985][145]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.04-15.29.21:985][145]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.04-15.29.21:985][145]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.04-15.29.21:995][145]LogInit: FAudioDevice initialized.
-[2021.01.04-15.29.22:001][145]LogLoad: Game class is 'FlyingGameMode_C'
-[2021.01.04-15.29.22:004][145]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-15.29.22
-[2021.01.04-15.29.22:005][145]LogWorld: Bringing up level for play took: 0.003291
-[2021.01.04-15.29.22:005][145]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2021.01.04-15.29.22:007][145]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2021.01.04-15.29.22:008][145]PIE: Server logged in
-[2021.01.04-15.29.22:009][145]PIE: Play in editor total start time 0.086 seconds.
-[2021.01.04-15.29.25:175][522]LogBlueprintUserMessages: [FlyingPawn_297] true
-[2021.01.04-15.29.28:358][904]LogBlueprintUserMessages: [FlyingPawn_297] false
-[2021.01.04-15.29.29:927][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.04-15.29.29:927][ 88]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2021.01.04-15.29.29:928][ 88]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.01.04-15.29.29:928][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.04-15.29.29:932][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.04-15.29.29:934][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.04-15.29.29:956][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.04-15.29.29:957][ 88]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E3F8B4BE00), frame # 1088
-[2021.01.04-15.29.29:957][ 88]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E38FB2DBC0), frame # 1088
-[2021.01.04-15.29.29:958][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
-[2021.01.04-15.29.30:002][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.01.04-15.40.39:997][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.04-15.40.39:997][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.39:998][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.04-15.40.39:998][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.39:998][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.40:001][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.04-15.40.40:002][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:002][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.04-15.40.40:003][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.04-15.40.40:003][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.04-15.40.40:003][  0]LogHAL: Display: Platform has ~ 32 GB [34277785600 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.04-15.40.40:003][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.04-15.40.40:003][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.04-15.40.40:003][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Scalability.ini]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.04-15.40.40:004][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Config/Windows/Engine.ini]
+[2021.01.04-15.40.40:004][  0]LogInit: Computer: LUKE-PC
+[2021.01.04-15.40.40:004][  0]LogInit: User: Luke
+[2021.01.04-15.40.40:004][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.01.04-15.40.40:004][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.04-15.40.40:004][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.01.04-15.40.40:004][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.04-15.40.40:004][  0]LogMemory: Process Physical Memory: 119.85 MB used, 119.85 MB peak
+[2021.01.04-15.40.40:004][  0]LogMemory: Process Virtual Memory: 98.06 MB used, 98.06 MB peak
+[2021.01.04-15.40.40:004][  0]LogMemory: Physical Memory: 13945.43 MB used,  18744.41 MB free, 32689.84 MB total
+[2021.01.04-15.40.40:004][  0]LogMemory: Virtual Memory: 5187.21 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.01.04-15.40.40:037][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.04-15.40.40:071][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.04-15.40.40:071][  0]LogInit: Using OS detected language (en-GB).
+[2021.01.04-15.40.40:071][  0]LogInit: Using OS detected locale (en-GB).
+[2021.01.04-15.40.40:074][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.01.04-15.40.40:204][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.04-15.40.40:234][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.04-15.40.40:234][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.04-15.40.40:391][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.01.04-15.40.40:391][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.04-15.40.40:391][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.04-15.40.40:392][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.04-15.40.40:489][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.04-15.40.40:489][  0]LogD3D11RHI:       8088/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.04-15.40.40:491][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.04-15.40.40:491][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.04-15.40.40:491][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.04-15.40.40:498][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.04-15.40.40:498][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.04-15.40.40:498][  0]LogWindows: EnumDisplayDevices:
+[2021.01.04-15.40.40:498][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.04-15.40.40:499][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.04-15.40.40:499][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.04-15.40.40:499][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.04-15.40.40:499][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.04-15.40.40:499][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.04-15.40.40:499][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2021.01.04-15.40.40:499][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2021.01.04-15.40.40:499][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.01.04-15.40.40:569][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.04-15.40.40:569][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.04-15.40.40:569][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.04-15.40.40:604][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.04-15.40.40:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.04-15.40.40:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.04-15.40.40:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.04-15.40.40:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.04-15.40.40:876][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.04-15.40.40:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.04-15.40.40:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.04-15.40.40:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.04-15.40.40:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.04-15.40.40:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.04-15.40.40:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.04-15.40.40:950][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.04-15.40.40:950][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.04-15.40.40:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.04-15.40.40:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.04-15.40.40:972][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.04-15.40.40:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.04-15.40.40:989][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.04-15.40.40:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.04-15.40.40:998][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.04-15.40.41:004][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.04-15.40.41:050][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Intermediate/Shaders/WorkingDirectory/10764/).
+[2021.01.04-15.40.41:050][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/77D43D9F44CED3AB8152A4B4E3152624/'.
+[2021.01.04-15.40.41:051][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.04-15.40.41:051][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.04-15.40.41:051][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.04-15.40.41:678][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.04-15.40.41:713][  0]LogDerivedDataCache: Loaded boot cache 0.03s 75MB C:/Users/Luke/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.04-15.40.41:713][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.04-15.40.41:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.04-15.40.41:713][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.04-15.40.41:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.04-15.40.41:713][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.04-15.40.41:722][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.04-15.40.41:722][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.04-15.40.41:722][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.04-15.40.41:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.04-15.40.41:723][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.04-15.40.41:723][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.04-15.40.41:765][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.04-15.40.41:765][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.04-15.40.41:783][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.01.04-15.40.41:973][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.04-15.40.42:060][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.04-15.40.42:060][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.04-15.40.42:060][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.04-15.40.42:060][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.04-15.40.42:060][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.04-15.40.42:072][  0]LogNetVersion: UnititledUfoGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1021350750)
+[2021.01.04-15.40.42:406][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002B5A9DFD400), frame # 0
+[2021.01.04-15.40.42:406][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B5A9D88900), frame # 0
+[2021.01.04-15.40.42:407][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B5A9DA1E00), frame # 0
+[2021.01.04-15.40.42:457][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.045054 seconds
+[2021.01.04-15.40.42:461][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.04-15.40.42:461][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.04-15.40.42:461][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.04-15.40.42:718][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.04-15.40.42:721][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.04-15.40.42:778][  0]SourceControl: Source control is disabled
+[2021.01.04-15.40.42:778][  0]SourceControl: Source control is disabled
+[2021.01.04-15.40.42:780][  0]SourceControl: Source control is disabled
+[2021.01.04-15.40.42:782][  0]SourceControl: Source control is disabled
+[2021.01.04-15.40.42:787][  0]SourceControl: Source control is disabled
+[2021.01.04-15.40.42:980][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.04-15.40.42:994][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.04-15.40.42:994][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.04-15.40.43:032][  0]LogOcInput: OculusInput pre-init called
+[2021.01.04-15.40.43:042][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.04-15.40.43:042][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.04-15.40.43:094][  0]LogEngine: Initializing Engine...
+[2021.01.04-15.40.43:147][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.01.04-15.40.43:147][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.04-15.40.43:148][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.04-15.40.43:236][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.04-15.40.43:242][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.04-15.40.43:242][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B5ABB34600), frame # 0
+[2021.01.04-15.40.43:242][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B5ABB0EC00), frame # 0
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-15.40.43:252][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-15.40.43:252][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-15.40.43:252][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-15.40.43:265][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-15.40.43:265][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-15.40.43:339][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-15.40.43:341][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-15.40.43:343][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-15.40.43:343][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-15.40.43:344][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-15.40.43:345][  0]LogInit: FAudioDevice initialized.
+[2021.01.04-15.40.43:345][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.04-15.40.43:393][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Luke/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.04-15.40.43:397][  0]LogInit: Texture streaming: Enabled
+[2021.01.04-15.40.43:410][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.04-15.40.43:410][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.04-15.40.43:411][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.04-15.40.43:467][  0]LogInit: Transaction tracking system initialized
+[2021.01.04-15.40.43:484][  0]BlueprintLog: New page: Editor Load
+[2021.01.04-15.40.43:536][  0]LocalizationService: Localization service is disabled
+[2021.01.04-15.40.43:653][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.04-15.40.43:654][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.04-15.40.43:744][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/' took 0.00s
+[2021.01.04-15.40.43:894][  0]SourceControl: Source control is disabled
+[2021.01.04-15.40.43:894][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.164
+[2021.01.04-15.40.43:901][  0]LightingResults: New page: Lighting Build
+[2021.01.04-15.40.43:902][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-15.40.43:902][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-15.40.43:902][  0]MapCheck: New page: Map Check
+[2021.01.04-15.40.43:902][  0]LightingResults: New page: Lighting Build
+[2021.01.04-15.40.43:915][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B5ABB34600), frame # 0
+[2021.01.04-15.40.43:915][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B5ABB0EC00), frame # 0
+[2021.01.04-15.40.43:915][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.04-15.40.44:095][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-15.40.44:096][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B5B6413E00), frame # 0
+[2021.01.04-15.40.44:096][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B5B63BBB00), frame # 0
+[2021.01.04-15.40.44:111][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.04-15.40.44:124][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.01.04-15.40.44:124][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.04-15.40.44:124][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
+[2021.01.04-15.40.44:124][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.230
+[2021.01.04-15.40.44:125][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.396
+[2021.01.04-15.40.44:238][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.40.44:243][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.40.44:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.40.44:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.40.44:261][  0]LogCollectionManager: Loaded 0 collections in 0.001798 seconds
+[2021.01.04-15.40.44:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/Collections/' took 0.00s
+[2021.01.04-15.40.44:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/Developers/Luke/Collections/' took 0.00s
+[2021.01.04-15.40.44:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/Collections/' took 0.00s
+[2021.01.04-15.40.44:273][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3427 classes and 821 folders.
+[2021.01.04-15.40.44:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.04-15.40.44:314][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.04-15.40.44:314][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 0 folders.
+[2021.01.04-15.40.44:650][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.04-15.40.44:651][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.04-15.40.44:655][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.04-15.40.44:714][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2021.01.04-15.40.44:790][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.04-15.40.44:790][  0]LogLoad: (Engine Initialization) Total time: 6.06 seconds
+[2021.01.04-15.40.44:790][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.04-15.40.44:834][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.04-15.40.44:847][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.04-15.40.52:918][949]LogAssetRegistry: Asset discovery search completed in 11.1362 seconds
+[2021.01.04-15.40.52:921][949]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.01.04-15.41.10:173][663]LogEditorViewport: Clicking on Actor (LMB): Turret_C (Turret)
+[2021.01.04-15.41.11:231][784]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-15.41.11:245][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-15.41.11:245][784]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 15:41:11)
+[2021.01.04-15.41.11:246][784]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.04-15.41.11:247][784]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.04-15.41.11:247][784]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-15.41.11:262][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014914s)
+[2021.01.04-15.41.11:263][784]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-15.41.11:263][784]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B5B7C54E00), frame # 2784
+[2021.01.04-15.41.11:263][784]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B5B635F240), frame # 2784
+[2021.01.04-15.41.11:263][784]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2021.01.04-15.41.11:263][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.015948s)
+[2021.01.04-15.41.11:276][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-15.41.11:278][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-15.41.11:278][784]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-15.41.11:278][784]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-15.41.11:281][784]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-15.41.11:281][784]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-15.41.11:304][784]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-15.41.11:304][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-15.41.11:304][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-15.41.11:304][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-15.41.11:304][784]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-15.41.11:314][784]LogInit: FAudioDevice initialized.
+[2021.01.04-15.41.11:319][784]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-15.41.11:323][784]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-15.41.11
+[2021.01.04-15.41.11:323][784]LogWorld: Bringing up level for play took: 0.003566
+[2021.01.04-15.41.11:323][784]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.01.04-15.41.11:326][784]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.04-15.41.11:326][784]PIE: Server logged in
+[2021.01.04-15.41.11:328][784]PIE: Play in editor total start time 0.083 seconds.
+[2021.01.04-15.41.47:279][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.41.47:279][ 19]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-15.41.47:279][ 19]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-15.41.47:279][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-15.41.47:287][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-15.41.47:288][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-15.41.47:314][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.41.47:316][ 19]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B5B7C54E00), frame # 3019
+[2021.01.04-15.41.47:316][ 19]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B5B635F240), frame # 3019
+[2021.01.04-15.41.47:317][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.04-15.41.47:351][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.01.04-15.41.47:883][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-15.41.47:899][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-15.41.47:899][ 84]PIE: New page: PIE session: FlyingExampleMap (4 Jan 2021, 15:41:47)
+[2021.01.04-15.41.47:938][ 84]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-15.41.47:951][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012973s)
+[2021.01.04-15.41.47:952][ 84]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2021.01.04-15.41.47:952][ 84]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B5B797CE00), frame # 3084
+[2021.01.04-15.41.47:952][ 84]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B59ADBDA80), frame # 3084
+[2021.01.04-15.41.47:952][ 84]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2021.01.04-15.41.47:952][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.014583s)
+[2021.01.04-15.41.47:963][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-15.41.47:964][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-15.41.47:964][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-15.41.47:965][ 84]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-15.41.47:965][ 84]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-15.41.47:968][ 84]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-15.41.47:968][ 84]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-15.41.47:990][ 84]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.04-15.41.47:990][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-15.41.47:990][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-15.41.47:990][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-15.41.47:991][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-15.41.48:000][ 84]LogInit: FAudioDevice initialized.
+[2021.01.04-15.41.48:005][ 84]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.01.04-15.41.48:008][ 84]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2021.01.04-15.41.48
+[2021.01.04-15.41.48:008][ 84]LogWorld: Bringing up level for play took: 0.003351
+[2021.01.04-15.41.48:008][ 84]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.01.04-15.41.48:010][ 84]PIE: Server logged in
+[2021.01.04-15.41.48:011][ 84]PIE: Play in editor total start time 0.112 seconds.
+[2021.01.04-15.41.48:669][161]LogBlueprintUserMessages: [FlyingPawn_297] true
+[2021.01.04-15.41.54:760][892]LogBlueprintUserMessages: [FlyingPawn_297] false
+[2021.01.04-15.42.01:038][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.42.01:038][642]LogWorld: BeginTearingDown for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2021.01.04-15.42.01:039][642]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-15.42.01:039][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-15.42.01:049][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-15.42.01:050][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-15.42.01:058][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-15.42.01:078][642]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B59ADBDA80), frame # 4642
+[2021.01.04-15.42.01:078][642]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B5B797CE00), frame # 4642
+[2021.01.04-15.42.01:079][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.04-15.42.01:127][644]LogPlayLevel: Display: Destroying online subsystem :Context_7
