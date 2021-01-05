@@ -3914,3 +3914,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.05-11.45.00:722][361]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.05-11.45.00:722][361]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
 [2021.01.05-11.45.00:722][361]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.01.05-11.45.34:649][906]LogObjectTools: Deleting 1 worlds: /Game/NewWorld.NewWorld
+[2021.01.05-11.45.34:649][906]LogObjectTools: Currently 10 active worlds: /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8
+[2021.01.05-11.45.34:668][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.01.05-11.45.37:067][906]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.05-11.45.37:083][906]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.01.05-11.45.37:083][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-11.45.37:126][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.01.05-11.45.45:946][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.01.05-11.45.48:842][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.01.05-11.45.48:843][294]LogMetaData: Removing '/Game/DesignerLevel.SKEL_DesignerLevel_C' ref from Metadata '/Game/FlyingBP/Maps/DesignerLevel.PackageMetaData'
+[2021.01.05-11.45.48:843][294]LogMetaData: Removing '/Game/DesignerLevel.DesignerLevel_C' ref from Metadata '/Game/FlyingBP/Maps/DesignerLevel.PackageMetaData'
+[2021.01.05-11.45.48:896][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.01.05-11.45.48:956][294]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/DesignerLevelDB2EB9914944E6546D5787974DFE3CF2.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/DesignerLevel.umap'
+[2021.01.05-11.45.48:964][294]LogFileHelpers: Saving map 'DesignerLevel' took 0.105
+[2021.01.05-11.45.49:096][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.01.05-11.45.49:117][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.01.05-11.45.49:134][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.01.05-11.45.49:165][294]AssetCheck: New page: Asset Save: DesignerLevel
+[2021.01.05-11.45.49:165][294]LogContentValidation: Display: Validating World /Game/DesignerLevel.DesignerLevel
+[2021.01.05-11.45.53:203][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.01.05-11.45.53:251][737]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap87551FEB4EEC3220411897B776F91E77.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2021.01.05-11.45.53:418][737]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Saved/FlyingExampleMap_BuiltData115607BD43987030FC7205B4074F119B.tmp' to '../../../../../../Users/Luke/Documents/GitHub/Senior-CGD-21-25-2021/UnititledUfoGame/UnititledUfoGame/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.01.05-11.45.53:429][737]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.05-11.45.53:430][737]LogContentValidation: Display: Validating World /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.01.05-11.45.53:430][737]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingBP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
